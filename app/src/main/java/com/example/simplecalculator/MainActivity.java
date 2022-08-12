@@ -80,7 +80,7 @@ tvSolution.setText(dataToCalculate);
 tvResult.setText(calc(dataToCalculate));
     }
 
-    //using implementation 'com.fathzer:javaluator:3.0.3'
+    //using implementation 'com.fathzer:javaluator:3.0.3'  н
     private  String calc(String data){
         double result;
         String  trimmedResult = null;
