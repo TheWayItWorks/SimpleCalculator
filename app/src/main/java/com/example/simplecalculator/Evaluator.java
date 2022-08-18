@@ -1,4 +1,4 @@
 package com.example.simplecalculator;
 
-public class Evaluator { //new feature //edit from web interface
+public class Evaluator { //new feature
 }
