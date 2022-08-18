@@ -14,6 +14,7 @@ import java.text.DecimalFormat;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     TextView tvSolution, tvResult;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -75,7 +76,7 @@ tvSolution.setText(dataToCalculate);
 tvResult.setText(calc(dataToCalculate));
     }
 
-    //using implementation 'com.fathzer:javaluator:3.0.3'  // local change
+    //using implementation 'com.fathzer:javaluator:3.0.3'  //
     private  String calc(String data){
         double result;
         String  trimmedResult = null;
