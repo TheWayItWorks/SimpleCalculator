@@ -1,4 +1,8 @@
 package com.example.simplecalculator;
 
-public class Evaluator { ///
+//Реализация - Обратная польска нотация - RPN
+
+public class Evaluator {
+
+
 }
